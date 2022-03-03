@@ -1,0 +1,166 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        
+        background-image: url('4.jpeg');
+        display: flex;
+        justify-content: center;
+        height: 300vh;
+        background-repeat:space;
+    }
+
+    .header {
+        position: absolute;
+        margin-top: 10px;
+        height: 70px;
+        text-align: center;
+    }
+
+    .title {
+       padding: 10px;
+        font-size: 40px;
+        font-family: 'Parisienne', cursive;
+        border: 2px solid black;
+       
+    }
+
+    .content {
+        border-radius: 2px;
+        position: relative;
+        
+        display: flex;
+        margin: 30px;
+        top: 170px;
+        width: 1100px;
+        height: 520px;
+        background-color: black;
+    }
+        
+        
+
+    
+    .one {
+        position: relative;
+        opacity: 0.5;
+        object-fit: cover;
+        background-color: pink;
+        height: 100%;
+        width: 33.3%;
+        transition-duration: 1s;
+    }
+
+    .two {
+        opacity: 0.5;
+        object-fit: cover;
+        background-color: red;
+        height: 100%;
+        width: 33.3%;
+        left: 400px;
+        transition-duration: 1s;
+    }
+
+    .three {
+        
+        object-fit: cover;
+        opacity: 0.5;
+        background-color: green;
+        height: 100%;
+        width: 33.3%;
+        left: 808px;
+        transition-duration: 1s;
+    }
+    
+    .one:hover {
+        width: 40%;
+        opacity: 1;
+        
+
+    }
+
+    .one:hover + .two + .three {
+        width: 26.8%;
+        
+        
+
+    }
+
+
+
+
+
+    .two:hover {
+        width: 40%;
+        opacity: 1;
+    }
+
+    .two:hover + .three {
+        width: 26.8%;
+        
+        
+
+    }
+
+   
+
+    .three:hover {
+        width: 40%;
+        opacity: 1;
+    }
+
+    .three:hover + .one {
+        width: 26.8;
+    }
+    
+.text {
+    position: absolute;
+    top: 120px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 35px;
+    border-bottom: 2px solid black;
+}
+
+.text2 {
+    position: absolute;
+    top: 750px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 35px;
+    border-bottom: 2px solid black;
+}
+
+.text3 {
+    position: absolute;
+    top: 1400px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 35px;
+    border-bottom: 2px solid black;
+}
+
+.content2 {
+    border-radius: 2px;
+        position: absolute;
+        
+        display: flex;
+        margin: 30px;
+        top: 800px;
+        width: 1100px;
+        height: 520px;
+        background-color: black;
+}
+
+.content3 {
+    border-radius: 2px;
+        position: absolute;
+        
+        display: flex;
+        margin: 30px;
+        top: 1450px;
+        width: 1100px;
+        height: 520px;
+        background-color: black;
+}
+
